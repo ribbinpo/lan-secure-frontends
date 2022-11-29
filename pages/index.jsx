@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Carousel from '/components/carousel/carousel.jsx';
-import { dashboardLists } from './constants/carouselList';
+import { dashboardLists } from '/constants/carouselList';
 import { useEffect, useState } from 'react';
 import { Tab } from '@headlessui/react';
 import NodeMenu from '../components/record/node-menu/node-menu';
